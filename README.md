@@ -26,3 +26,11 @@ https://console.developers.google.com/apis/credentials?project=emaily-dev-212610
     - Watch node code for restarting server
 - [express](https://expressjs.com/)
     - Server framework
+- [mongoose](http://mongoosejs.com/)
+    - MongoDB object modelling library to create schemas and query building logic into node.
+    - Database can be accessed from https://mlab.com/databases/
+- [cookie-session](https://github.com/expressjs/cookie-session)
+    - Simple cookie-based session middleware for express
+    - The session is limited to 4kb
+    - The cookie encrypts the data sent to the browser
+    - The cookie when received, deserializes the cookie data and stores the data to the express session object (`req.session`)
