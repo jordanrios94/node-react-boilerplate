@@ -34,3 +34,5 @@ https://console.developers.google.com/apis/credentials?project=emaily-dev-212610
     - The session is limited to 4kb
     - The cookie encrypts the data sent to the browser
     - The cookie when received, deserializes the cookie data and stores the data to the express session object (`req.session`)
+- [concurrently](https://github.com/kimmobrunfeldt/concurrently)
+    - Allows multiple scripts to be executed 
