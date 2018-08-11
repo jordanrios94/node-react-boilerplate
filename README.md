@@ -15,7 +15,13 @@ git push heroku master;
 ```
 
 ## Google API Project Console
-https://console.developers.google.com/apis/credentials?project=emaily-dev-212610
+- https://console.developers.google.com/apis/credentials?project=emaily-dev-212610
+- https://console.developers.google.com/apis/dashboard?project=emaily-prod-213015
+
+## Database
+Mongo Database can be accessed from:
+- https://mlab.com/databases/be-emaily-dev
+- https://mlab.com/databases/be-emaily-prod
 
 ## Libraries
 - [passport](http://www.passportjs.org/)
@@ -28,7 +34,6 @@ https://console.developers.google.com/apis/credentials?project=emaily-dev-212610
     - Server framework
 - [mongoose](http://mongoosejs.com/)
     - MongoDB object modelling library to create schemas and query building logic into node.
-    - Database can be accessed from https://mlab.com/databases/
 - [cookie-session](https://github.com/expressjs/cookie-session)
     - Simple cookie-based session middleware for express
     - The session is limited to 4kb
