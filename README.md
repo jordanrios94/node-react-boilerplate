@@ -1,3 +1,17 @@
+## Local Server Environment
+```
+cd server;
+npm install;
+npm run dev;
+```
+
+Local server runs on `localhost:5000`
+
+## Heroku Deployment
+```
+git push heroku master;
+```
+
 ## Google API Project Console
 https://console.developers.google.com/apis/credentials?project=emaily-dev-212610
 
