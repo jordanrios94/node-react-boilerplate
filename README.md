@@ -40,4 +40,9 @@ Mongo Database can be accessed from:
     - The cookie encrypts the data sent to the browser
     - The cookie when received, deserializes the cookie data and stores the data to the express session object (`req.session`)
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently)
-    - Allows multiple scripts to be executed 
+    - Allows multiple scripts to be executed
+- [stripe](https://stripe.com/docs/api/node)
+    - Stripe SDK for managing payments on the server
+- [body-parser](https://github.com/expressjs/body-parser)
+    - Parse incoming request bodies in a middleware before your handlers, available under the req.body property
+    - e.g. Post requests will parse JSON string from the client into an object
