@@ -46,3 +46,5 @@ Mongo Database can be accessed from:
 - [body-parser](https://github.com/expressjs/body-parser)
     - Parse incoming request bodies in a middleware before your handlers, available under the req.body property
     - e.g. Post requests will parse JSON string from the client into an object
+- [sendgrid](http://sendgrid.com)
+    - 3rd party application to support email lists
