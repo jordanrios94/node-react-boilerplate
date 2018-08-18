@@ -6,7 +6,7 @@ import * as actions from '../actions';
 
 import Header from './Header';
 import Landing from './Landing';
-const Dashboard = () => <div className="container"><h2>Dashboard</h2></div>;
+import Dashboard from './Dashboard';
 const SurveyNew = () => <h2>SurveyNew</h2>;
 
 
