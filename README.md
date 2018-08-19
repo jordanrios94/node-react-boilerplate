@@ -48,3 +48,12 @@ Mongo Database can be accessed from:
     - e.g. Post requests will parse JSON string from the client into an object
 - [sendgrid](http://sendgrid.com)
     - 3rd party application to support email lists
+- [localtunnel](https://localtunnel.github.io/www/)
+    - Used tp expose local environment on the internet in order to test webhooks
+    - `lt -p 5000 -s wlqkjeklwq`
+        - `-p` Post number where localhost site is exposed on
+        - `-s` Sub-domain for which localtunnel will use to attach, e.g. `wlqkjeklwq.localtunnel.com`
+- [lodash](https://lodash.com/)
+    - JS utility library that contains awesome functions for collections and functions
+- [path-parser](https://github.com/troch/path-parser)
+    - Parses the request URL into an object to make it easier to extract data from the URL
